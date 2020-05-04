@@ -1,0 +1,87 @@
+.container{
+   
+    width: 1200px;
+    height: 400px;
+}
+
+.containergen{
+    padding: 48px;
+    width: 900px;
+    height: 300px;
+}
+
+
+#topstreams .stream-title{
+    font-size: 1.5em;
+    color: darkred;
+    padding:40px;
+    
+}
+
+#topstreams .topstreams{
+    display: grid;
+    grid-template-columns: 800px 250px;
+    grid-gap: 150px;
+}
+
+#topstreams .topstreams .stream{
+    height: 300px;
+    width: 600px;
+    border: whitesmoke 2px solid;
+}
+
+#topstreams .topstreams .stream:hover{
+    border: darkred 4px solid;
+}
+
+#topstreams .topstreams .stream-board{
+    height: 100%;
+    position: relative;
+    border: black 2px solid;
+    margin-top: 1px;
+}
+
+#recomendchanels .chanel-title{
+    font-size: 1em;
+    color: whitesmoke;
+    padding: 20px;
+}
+
+#recomendchanels .chanels{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+}
+
+#recomendchanels .chanels .chanel{
+    height: 200px;
+    width: 100%;
+    border: whitesmoke solid 2px;
+}
+
+#recomendchanels .chanels .chanel:hover{
+    border: 2px solid darkred;
+}
+
+#games .games-title{
+    font-size: 1em;
+    color: whitesmoke;
+    padding: 20px;
+}
+
+#games .games-chanels{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+}
+
+#games .games-chanels .game-chanel{
+    height: 200px;
+    width: 100%;
+    border: whitesmoke solid 2px;
+}
+
+#games .games-chanels .game-chanel:hover{
+    border: darkred 2px solid;
+}
+

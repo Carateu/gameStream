@@ -1,0 +1,311 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@900&display=swap');
+html, body {
+    background:  rgba(0,0,0,0) linear-gradient(to right,rgb(0,0,0),rgb(67,67,67));
+    font-family: 'Cinzel', serif;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+
+}
+
+header .left-section{
+    /* display flex alinhando os itens lado a lado*/
+    display: flex;
+}
+
+#logo{
+    font-size: 2rem;
+    color: darkred;
+    text-decoration: none;
+}
+
+header .left-section .menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px;
+}
+
+header .left-section .menu a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 0px 30px;
+    text-transform: uppercase;
+}
+
+header .left-section .menu a:hover{
+    color: darkred;
+}
+
+header .right-section{
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .right-section .language{
+    text-decoration: none;
+    padding: 0px 30px;
+    text-transform: uppercase;
+}
+
+header .right-section .language:hover{
+    color: darkred;
+}
+
+header .right-section .signin{
+    background: darkred;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    padding: 10px;
+    color: 	black;
+}
+
+header .right-section .signin:hover{
+    color: darkred;
+    background: black;
+}
+
+.searchsection .searchbox{
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 320px;
+    height: 30px;
+    width: 600px;
+    position: relative;
+    border: 1px solid whitesmoke;
+    border-radius: 2px;
+    font-size: 0.8em;
+    color: rgba(255,255,255,0.3);
+}
+
+.searchsection .searchbox .fa{
+    position: absolute;
+    color: darkred;
+    font-size: 1.2em;
+    right: 0;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#featured{
+    padding: 50px 0;
+}
+
+#featured .section-title{
+    font-size: 1.2rem;
+    color: whitesmoke;
+}
+
+#featured .videos-section{
+    display: grid;
+    grid-template-columns: 1fr 2fr 620px 2fr 1fr;
+    grid-gap: 5px;
+}
+
+#featured .videos-section .video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#featured .videos-section .video .image{
+    width: 100%;
+    height: 320px;
+    background: url(../imgs/reddead2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid darkred;
+}
+
+#featured .videos-section .video .image:hover{
+    border: 2px solid darkred;
+
+}
+
+#featured .videos-section .video.center{
+    width: 100%;
+    height: 349px;
+    background: rgba(255,255,255,.6);
+}
+
+#featured .videos-section .video.center .image{
+    width: 100%;
+    height: 349px;
+    background: url(../imgs/forzah4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: scale(1.05);
+    border: 3px solid darkred;
+}
+
+#featured .videos-section .video.center .image:hover{
+    border: 4px solid darkred;
+}
+
+#featured .videos-section .video:nth-child(1) .image,
+#featured .videos-section .video:nth-child(5) .image
+{
+    position: relative;
+
+}
+
+#featured .videos-section .video:nth-child(1) .image .arrow{
+    height: 100%;
+    position: absolute;
+    background: rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+#featured .videos-section .video:nth-child(5) .image .arrow{
+    height: 100%;
+    position: absolute;
+    background: rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    right: 0;
+}
+
+#featured .videos-section .video:nth-child(1) .image .arrow:hover,
+#featured .videos-section .video:nth-child(5) .image .arrow:hover
+{
+    background: rgba(0, 0, 0,.8);
+}
+
+#featured .videos-section .video:nth-child(1) .image .arrow .fa,
+#featured .videos-section .video:nth-child(5) .image .arrow .fa
+{
+    font-size: 2rem;
+    color: darkred;
+}
+
+
+#featured .dots{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+#featured .dots .circles{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#featured .dots .circles .circle{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: whitesmoke;
+    margin-right: 8px ;
+}
+
+#featured .dots .circles .circle:hover{
+    width: 12px;
+    height: 12px;
+    background: darkred;
+    transition: all 0.2s  ease-in-out;
+}
+
+#featured .dots .circles .circle.active{
+    background: darkred;
+}
+
+#topgames{
+    padding: 2px 0;
+}
+
+#topgames .games-title{
+    font-size: 1.2rem;
+    color: whitesmoke;
+}
+
+#topgames .games{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-gap: 10px;
+    padding: 15px;
+}
+
+#topgames .games .game{
+    height: 250px;
+    border-radius: 5px;
+    border: 2px solid black;
+    position: relative;
+}
+
+#topgames .games .game:hover{
+    border: 4px solid darkred;
+}
+
+
+#topgames .games .game:nth-child(1){
+    background: url(../imgs/reddead.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#topgames .games .game:nth-child(2){
+    background: url(../imgs/halo5.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#topgames .games .game:nth-child(3){
+    background: url(../imgs/bf5.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#topgames .games .game:nth-child(4){
+    background: url(../imgs/FH4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#topgames .games .game:nth-child(5){
+    background: url(../imgs/dota2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#topgames .games .game:nth-child(6){
+    background: url(../imgs/fortnite.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#topgames .games .game .info{
+    background:black;
+    color: whitesmoke;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 2px;
+    font-size: 0.8em;
+}
