@@ -79,12 +79,13 @@ header .right-section .signin:hover{
     width: 600px;
     position: relative;
     border: 1px solid #FFCC00;
+    background-color: black;
     border-radius: 2px;
     font-size: 0.8em;
-    color: rgba(255,255,255,0.3);
+    color: red;
 }
 
-.searchsection .searchbox .fa{
+.searchsection .searchbox .fa fa-search{
     position: absolute;
     color: #FFCC00;
     font-size: 1.2em;
