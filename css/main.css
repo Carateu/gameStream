@@ -35,12 +35,18 @@ header .left-section .menu a{
     text-decoration: none;
     padding: 0px 30px;
     text-transform: uppercase;
+    position: relative;
 }
 
-header .left-section .menu .a .ul{
+header .left-section .menu .a ul{
     position: absolute;
     display: none;
 }
+
+header .left-section .menu .a .ul a[href="games.html"]{
+    display: block;
+}
+
 
 
 header .left-section .menu a:hover{
