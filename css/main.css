@@ -35,20 +35,14 @@ header .left-section .menu a{
     text-decoration: none;
     padding: 0px 30px;
     text-transform: uppercase;
-}
-
-header .left-section .menu .a #out-menu{
     position: relative;
 }
 
-header .left-section .menu .a #outmenu #in-menu{
+header .left-section .menu .a .ul{
     position: absolute;
     display: none;
 }
 
-header .left-section .menu .a #out-menu:hover{
-    display: block;
-}
 
 header .left-section .menu a:hover{
     color: rgba(255,255,0.5);
