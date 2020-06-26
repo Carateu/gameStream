@@ -37,11 +37,11 @@ header .left-section .menu a{
     text-transform: uppercase;
 }
 
-#out-menu{
+header .left-section .menu .a #out-menu{
     position: relative;
 }
 
-#in-menu{
+header .left-section .menu .a #outmenu #in-menu{
     position: absolute;
     display: none;
 }
