@@ -220,7 +220,7 @@ header .right-section .signin:hover{
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background: rgba(255,255,0.5);
+    background: rgba(255,255,0.2);
     margin-right: 8px ;
 }
 
@@ -232,7 +232,7 @@ header .right-section .signin:hover{
 }
 
 #featured .dots .circles .circle.active{
-    background: #FFCC00;
+    background: #ffcc00;
 }
 
 #topgames{
