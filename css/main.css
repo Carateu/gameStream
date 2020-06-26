@@ -46,7 +46,7 @@ header .left-section .menu .a #outmenu #in-menu{
     display: none;
 }
 
-#in-menu #out-menu:hover{
+header .left-section .menu .a #out-menu:hover{
     display: block;
 }
 
