@@ -132,7 +132,7 @@ header .right-section .signin:hover{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    border: 1px solid #FFCC00;
+    border: 1px solid #ecd781;
 }
 
 #featured .videos-section .video .image:hover{
@@ -154,11 +154,11 @@ header .right-section .signin:hover{
     background-size: cover;
     background-repeat: no-repeat;
     transform: scale(1.05);
-    border: 3px solid #FFCC00;
+    border: 2px solid #ecd781;
 }
 
 #featured .videos-section .video.center .image:hover{
-    border: 4px solid #FFCC00;
+    border: 5px solid #FFCC00;
 }
 
 #featured .videos-section .video:nth-child(1) .image,
