@@ -1,9 +1,8 @@
 @import url(reset.css);
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@900&display=swap');
 html, body {
-    background:  rgba(0,0,0,0) linear-gradient(to right,rgb(0,0,0),rgb(67,67,67));
+    background:  rgba(0,0,0,0) linear-gradient(to right,rgb(0,0,0),rgb(35,35,35));
     font-family: 'Cinzel', serif;
-
 }
 
 header{
@@ -20,7 +19,7 @@ header .left-section{
 
 #logo{
     font-size: 2rem;
-    color: darkred;
+    color: 	#FFCC00;
     text-decoration: none;
 }
 
@@ -32,18 +31,31 @@ header .left-section .menu{
 }
 
 header .left-section .menu a{
-    color: whitesmoke;
+    color: 	#FFCC00;
     text-decoration: none;
     padding: 0px 30px;
     text-transform: uppercase;
 }
 
+#out-menu{
+    position: relative;
+}
+
+#in-menu{
+    position: absolute;
+    display: none;
+}
+
+#in-menu #out-menu:hover{
+    display: block;
+}
+
 header .left-section .menu a:hover{
-    color: darkred;
+    color: rgba(255,255,0.5);
 }
 
 header .right-section{
-    color: whitesmoke;
+    color: #FFCC00;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,11 +68,11 @@ header .right-section .language{
 }
 
 header .right-section .language:hover{
-    color: darkred;
+    color:  rgba(255,255,0.5);
 }
 
 header .right-section .signin{
-    background: darkred;
+    background: #FFCC00;
     font-size: 0.9rem;
     border-radius: 4px;
     padding: 10px;
@@ -68,7 +80,7 @@ header .right-section .signin{
 }
 
 header .right-section .signin:hover{
-    color: darkred;
+    color: #FFCC00;
     background: black;
 }
 
@@ -79,7 +91,7 @@ header .right-section .signin:hover{
     height: 30px;
     width: 600px;
     position: relative;
-    border: 1px solid whitesmoke;
+    border: 1px solid #FFCC00;
     border-radius: 2px;
     font-size: 0.8em;
     color: rgba(255,255,255,0.3);
@@ -87,7 +99,7 @@ header .right-section .signin:hover{
 
 .searchsection .searchbox .fa{
     position: absolute;
-    color: darkred;
+    color: #FFCC00;
     font-size: 1.2em;
     right: 0;
     margin-right: 10px;
@@ -127,11 +139,11 @@ header .right-section .signin:hover{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    border: 1px solid darkred;
+    border: 1px solid #FFCC00;
 }
 
 #featured .videos-section .video .image:hover{
-    border: 2px solid darkred;
+    border: 2px solid #FFCC00;
 
 }
 
@@ -149,11 +161,11 @@ header .right-section .signin:hover{
     background-size: cover;
     background-repeat: no-repeat;
     transform: scale(1.05);
-    border: 3px solid darkred;
+    border: 3px solid #FFCC00;
 }
 
 #featured .videos-section .video.center .image:hover{
-    border: 4px solid darkred;
+    border: 4px solid #FFCC00;
 }
 
 #featured .videos-section .video:nth-child(1) .image,
@@ -194,7 +206,7 @@ header .right-section .signin:hover{
 #featured .videos-section .video:nth-child(5) .image .arrow .fa
 {
     font-size: 2rem;
-    color: darkred;
+    color: #FFCC00
 }
 
 
@@ -215,19 +227,19 @@ header .right-section .signin:hover{
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background: whitesmoke;
+    background: rgba(255,255,0.5);
     margin-right: 8px ;
 }
 
 #featured .dots .circles .circle:hover{
     width: 12px;
     height: 12px;
-    background: darkred;
+    background: #FFCC00;
     transition: all 0.2s  ease-in-out;
 }
 
 #featured .dots .circles .circle.active{
-    background: darkred;
+    background: #FFCC00;
 }
 
 #topgames{
@@ -236,7 +248,7 @@ header .right-section .signin:hover{
 
 #topgames .games-title{
     font-size: 1.2rem;
-    color: whitesmoke;
+    color: #FFCC00;
 }
 
 #topgames .games{
@@ -254,7 +266,7 @@ header .right-section .signin:hover{
 }
 
 #topgames .games .game:hover{
-    border: 4px solid darkred;
+    border: 4px solid #FFCC00
 }
 
 
@@ -302,7 +314,7 @@ header .right-section .signin:hover{
 
 #topgames .games .game .info{
     background:black;
-    color: whitesmoke;
+    color: #FFCC00;
     position: absolute;
     bottom: 0;
     width: 100%;
