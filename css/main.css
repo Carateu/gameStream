@@ -52,10 +52,33 @@ header .right-section .language{
     text-decoration: none;
     padding: 0px 30px;
     text-transform: uppercase;
+    position: relative;
 }
 
 header .right-section .language:hover{
     color:  rgba(255,255,0.5);
+}
+
+#languages{
+    position: absolute;
+    display: none;
+    background-color: #000000;
+}
+
+#languages li{
+    background-color: #000000;
+    color: #FFCC00;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px 5px;
+}
+#languages li:hover{
+    background-color: #FFCC00;
+    color: #000000;
+}
+
+header .right-section .language:hover #languages{
+    display: block;
 }
 
 header .right-section .signin{
@@ -304,4 +327,18 @@ header .right-section .signin:hover{
     width: 100%;
     padding: 2px;
     font-size: 0.8em;
+}
+
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: #FFCC00;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#footerid{
+    padding-top: 25px;
 }

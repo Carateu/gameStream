@@ -6,13 +6,13 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/games.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Mixer Clone</title>
+    <title>Games Stream</title>
 </head>
 <body>
     <header>
         <div class="left-section">
             <div class="logo">
-                <a id="logo" href="index.html">N'GameX</a>
+                <a id="logo" href="index.html">Games Stream</a>
             </div>
             <nav class="menu">
                 <a href="streams.html">Top Streams</a>
@@ -24,7 +24,14 @@
 
         <div class="right-section">
             <div class=language>
-                Language
+                Language 
+                <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+                <ul id="languages">
+                    <li>Portuguese</li>
+                    <li>English</li>
+                    <li>French</li>
+                    <li>German</li>
+                </ul>
             </div>
             <a class="signin">
                 Signin
@@ -33,9 +40,8 @@
     </header>
 
     <div class="searchsection">
-        <div class="searchbox">
-            Buscar
-            <i class="fa fa-search" aria-hidden="true"></i>
+        <input type="text" class="searchbox" 
+        placeholder="buscar games ou streams"></input>
         </div>
     </div>
 
@@ -93,5 +99,11 @@
             </div>
         </div>
     </div>
+    <footer>
+        <div id="footerid">
+            <p>Copyright</p>
+            <span>Desenvolvido por Bruno Silva</span>
+        </div>
+    </footer>
 </body>
 </html>

@@ -1,38 +1,37 @@
 .container{
     padding: 100px;
     width: 1200px;
-    height: 720px;
+    height: 100%;
 }
 
 h2{
-    padding: 20px;
     font-size: 2em;
     font-weight: 200;
-    color: whitesmoke;
+    color: #FFCC00;
 }
 
 .games{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 25px;
+    column-gap: 30px;
     padding: 30px;
-    grid-template-rows: 300px;
+    grid-template-rows: repeat(5,1fr);
+    row-gap: 100px;
 }
 
 .game{
     height: 250px;
     position: relative;
     border-radius: 5px;
-    border: darkred 1px solid;
+    border: white 1px solid;
     background: url(../imgs/castlevania.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 .game:hover{
-    border: darkred 3px solid;
+    border: #FFCC00 3px solid;
 }
 
 .gameinfo{
@@ -45,7 +44,7 @@ h2{
 
 #titlegame{
     font-weight: 400;
-    color: whitesmoke;
+    color: #FFCC00;
     font-size: 1em;
 }
 
